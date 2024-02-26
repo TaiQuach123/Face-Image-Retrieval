@@ -7,5 +7,5 @@
 
 
 
+### **Contributors**
 
-<a href="https://github.com/TaiQuach123/Face-Image-Retrieval/graphs/contributors">
