@@ -1,4 +1,4 @@
-import lib
+from lib import *
 # import dataset
 #import model
 
