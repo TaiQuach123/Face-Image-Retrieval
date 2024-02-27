@@ -1,4 +1,4 @@
-import lib
+from lib import *
 
 class SiameseModel(nn.Module):
     def __init__(self):
