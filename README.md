@@ -4,6 +4,21 @@
 # Introduction about Dataset
 
 
+# Embedding
+To embed face vector for yourself dataset, run 
+```bash
+python embedding.py --dataset-dir <...> --model-weights <...> --fname <...>
+```
+with
+- `--dataset-dir`: Name of image directory.
+- `--model-weights`: File save weights of model.
+- `--fname`: Name of embedding file, file `.h5`
+
+**Example**
+```bash
+python embedding.py --dataset-dir ./img_dataset --model-weights ./model.pt --fname face_vecs
+```
+
 # Face CBIR system
 
 ![Demo video](./imgs/cbir_demo.gif) 
