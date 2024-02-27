@@ -4,6 +4,13 @@
 # Introduction about Dataset
 
 
+# Face CBIR system
+
+![Demo video](./imgs/cbir_demo.gif) 
+To run system in local, run following code in Command Line
+```bash
+python cbir_system.py
+```
 
 
 
