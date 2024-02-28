@@ -1,17 +1,29 @@
 <h1 align="center"><b>Face Image Retrieval</b></h1>
-<h3 align="center"><b>HCMUS - Pattern Recognition Project - 2023-2024</b></h3>
+<h3 align="center"><b>HCMUS - Pattern Recognition Project - Semester I/2023-2024</b></h3>
 
 # Introduction about Dataset
 
+# Training Model
+You can train Siamese Network very easily, just run the following code
+```bash
+python train.py --partition_path <...> --identity_path <...> --dataset_dir <...>
+```
+
+with
+- `--dataset_dir`: Path of your dataset directory, which contains images.
+- `--partition_path`: Path to partition file for splitting the dataset into train/val/test sets.
+- `--identity_path`: Path to identity file for labeling your images (image belongs to specific celebrity)
+
+Besides these parameters, you also have various other parameters as well for you to adjust.
 
 # Embedding
-To embed face vector for yourself dataset, run 
+To create embedding vectors for your dataset, run the following code
 ```bash
 python embedding.py --dataset-dir <...> --model-weights <...> --fname <...>
 ```
 with
-- `--dataset-dir`: Name of image directory.
-- `--model-weights`: File save weights of model.
+- `--dataset-dir`: Name of your dataset directory.
+- `--model-weights`: Model checkpoint.
 - `--fname`: Name of embedding file, file `.h5`
 
 **Example**
