@@ -1,5 +1,6 @@
 <h1 align="center"><b>Face Image Retrieval</b></h1>
 <h3 align="center"><b>HCMUS - Pattern Recognition Project - Semester I/2023-2024</b></h3>
+This is our Pattern Recognition's final project, which includes 3 members. In this project, we train a Siamese Network with the CelebA dataset using SupConLoss from Supervised Contrastive Learning paper for metric learning. Our target is to create embedding vectors of face images, in which face images came from the same person should have high similarity.
 
 # Introduction about Dataset
 
