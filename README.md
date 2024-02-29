@@ -18,6 +18,7 @@ with
 
 Besides these parameters, you also have various other parameters as well for you to adjust.
 
+In this project, because of the lack of resources, we only use 1 positive per anchor image (more details in dataset.py), you can also try to increase the number of positives per anchor image and increase batch size for better performance.
 # Embedding
 To create embedding vectors for your dataset, run the following code
 ```bash
