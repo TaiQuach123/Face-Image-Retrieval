@@ -91,7 +91,7 @@ class MyDataset(Dataset):
 
     def __getitem__(self, idx):
         img_path, label = self.data[idx]
-        img2_path = random.choice(self.dct[self.split][str(label)])
+        img2_path = random.choice(self.dct[self.split][str(label)]) #Get 1 random positive image for each anchor image
         merge_img_path = img_path + '\t' + img2_path
         return merge_img_path, label
     
