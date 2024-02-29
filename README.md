@@ -6,7 +6,7 @@ This is our Pattern Recognition's final project, which includes 3 members. In th
 In this project, we utilize the CelebA dataset, a well-known dataset for exploring facial attributes. 
 
 # Training Model
-You can train Siamese Network very easily, just run the following code
+You can train Siamese Network with SupConLoss very easily, just run the following code
 ```bash
 python train.py --partition_path <...> --identity_path <...> --dataset_dir <...>
 ```
