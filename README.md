@@ -1,4 +1,12 @@
 <h1 align="center"><b>Face Image Retrieval</b></h1>
+
+<h5 align="center">
+
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TaiQuach123/Face-Image-Retrieval/blob/main/notebook/Face_Image_Retrieval.ipynb)
+  [![hf_space](https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg)](https://huggingface.co/spaces/haihuynh/face-cbir)
+  
+</h5>
+
 <h3 align="center"><b>HCMUS - Pattern Recognition Project - Semester I/2023-2024</b></h3>
 This is our Pattern Recognition's final project, which includes 3 members. In this project, we train a Siamese Network with the CelebA dataset using SupConLoss from Supervised Contrastive Learning paper for metric learning. Our target is to create embedding vectors of face images, in which face images came from the same person should have high similarity.
 
