@@ -3,6 +3,7 @@
 <h5 align="center">
 
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TaiQuach123/Face-Image-Retrieval/blob/main/notebook/Face_Image_Retrieval.ipynb)
+  [![hf_space](https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg)](https://huggingface.co/spaces/haihuynh/face-img-retrieval)
   
 </h5>
 
